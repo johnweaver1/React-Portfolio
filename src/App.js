@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Portfolio from './components/Portfolio';
-
+import PortfolioContainer from './componenets/PortfolioContainer';
+import "@fontsource/roboto-slab"
 
 function App() {
   return (
-    <Portfolio />
+   <PortfolioContainer/>
   );
 }
 

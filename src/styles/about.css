@@ -1,0 +1,88 @@
+
+
+#aboutContainer{ 
+    font-family: "Roboto Slab";
+}
+
+#introContainer{
+    margin-top: 1%;
+    width: 30%;
+}
+
+.inline {
+    display: inline;
+}
+
+#imgContainer{
+    width: 50%;
+    float:left;
+    
+}
+
+#aboutText1{
+    border: solid black;
+    border-left: none;
+    width:50%;
+    float: left;
+    margin-top: 25%;
+    height:100%;
+    
+}
+#headshot{
+    width: 100%;
+    
+}
+
+
+
+ #helloText{
+    font-size: 30px;
+    text-align:center;
+} 
+
+#nameTag{
+    font-size: 50px;
+    text-align:center;
+}
+
+#introType{
+    margin-left: 5%;
+    text-align:center;
+}
+
+
+
+#aboutText2{
+    width: 100%;
+    font-size: 25px;
+    font-family: "Roboto Slab";
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    
+    
+}
+#aboutP{
+    width: 50%;
+}
+
+
+
+ @media screen and (max-width: 1000px){
+    #introContainer{
+        width: 80%;
+    }
+    #aboutText2{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    #aboutP{
+        width: 100%;
+        margin-left: 15%;
+    }
+    
+}
+
+ 
