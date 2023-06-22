@@ -15,8 +15,8 @@ export default function Navigation() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="https://www.linkedin.com/in/john-weaver-b804451b8/"><img src={linkedIn}></img></a></li>
-          <li><a href="https://github.com/johnweaver1"><img src={github}></img></a></li>
+          <li><a href="https://www.linkedin.com/in/john-weaver-b804451b8/" target="_blank" rel="noopener noreferrer"><img src={linkedIn}></img></a></li>
+          <li><a href="https://github.com/johnweaver1" target="_blank" rel="noopener noreferrer"><img src={github}></img></a></li>
       </ul>
     </nav>
   )
